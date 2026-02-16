@@ -1,7 +1,8 @@
 :root {
     --primaryColor: #4CAF4F;
     --secondaryColor: #F5F7FA;
-
+    --thirdColor: #717171;
+    --fourthColor: #4D4D4D;
 }
 
 @font-face {
@@ -67,7 +68,7 @@
     font-family: inter;
     font-size: 25px;
     font-weight: 600;
-    color: #4D4D4D;
+    color: var(--fourthColor);
     font-style: bold;
 }
 
@@ -75,12 +76,12 @@
     font-family: inter;
     font-size: 15px;
     font-weight: 400;
-    color: #4D4D4D;
+    color: var(--fourthColor);
 
 }
 
 .heading2 {
-    color: #4D4D4D;
+    color: var(--fourthColor);
     font-style: bold;
     font-family: inter;
     font-weight: 700;
@@ -92,7 +93,7 @@
     font-family: inter;
     font-size: 15px;
     font-weight: 400;
-    color: #4D4D4D;
+    color: var(--fourthColor);
     text-align: center;
 }
 
@@ -117,4 +118,47 @@
     line-height: 13.92px;
     letter-spacing: 0%;
 
+}
+
+.thirdColor {
+    color: var(--thirdColor);
+}
+
+.fourthColor {
+    color: var(--fourthColor);
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 19.49px;
+    line-height: 25.06px;
+    letter-spacing: 0%;
+
+}
+
+.style01 {
+    width: 124.25411224365234;
+    height: 36.48994445800781;
+    gap: 5.57px;
+    opacity: 1;
+    padding-top: 9.74px;
+    padding-right: 22.27px;
+    padding-bottom: 9.74px;
+    padding-left: 22.27px;
+    border-radius: 2.78px;
+
+}
+
+.largefont {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    /* line-height: 52.9px; */
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.footerbg{
+    background-color:#263238;
+;
 }
