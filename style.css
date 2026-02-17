@@ -158,7 +158,46 @@
 
 }
 
-.footerbg{
-    background-color:#263238;
-;
+.footerbg {
+    background-color: #263238;
+
+}
+
+footer li a {
+    color: var(--secondaryColor);
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 9.74px;
+    line-height: 13.92px;
+    letter-spacing: 0%;
+
+}
+
+.textColor {
+    color: var(--secondaryColor);
+}
+
+.inputfield {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 9.74px;
+    background-color: #515B60;
+
+}
+
+footer h2 {
+    font-family: inter;
+}
+
+.send {
+    opacity: 1;
+    top: 44.36px;
+    left: 156.62px;
+
+}
+
+.bgColor {
+    background-color: #1C202A;
 }
